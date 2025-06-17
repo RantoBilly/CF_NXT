@@ -16,7 +16,7 @@ const Footer = ({ className }: FooterProps) => {
           <div className="col-span-1 md:col-span-2">
             <Link to="/" className="flex items-center">
               <BarChart3 className="h-8 w-8 text-primary-500" />
-              <span className="ml-2 text-xl font-bold text-primary-800">IC NextA+</span>
+              <span className="ml-2 text-xl font-bold text-primary-800">MindCrowd</span>
             </Link>
             <p className="mt-4 text-gray-600 text-sm">
               A revolutionary platform combining AI and blockchain technology to connect investors with promising startups. 
@@ -109,7 +109,7 @@ const Footer = ({ className }: FooterProps) => {
         
         <div className="mt-12 border-t border-gray-200 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-gray-500">
-            &copy; {new Date().getFullYear()} InvestNexus. All rights reserved.
+            &copy; {new Date().getFullYear()} MindCrowd. All rights reserved.
           </p>
           <div className="mt-4 md:mt-0">
             <img 
