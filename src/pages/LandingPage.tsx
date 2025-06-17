@@ -22,7 +22,7 @@ const LandingPage = () => {
                 transition={{ duration: 0.5 }}
               >
                 <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-                  Invest in the Future with Blockchain & AI
+                  Welcome to MindCrowd by NextA
                 </h1>
                 <p className="mt-6 text-lg text-primary-100 max-w-lg">
                   Join our revolutionary platform connecting investors with promising startups. 
