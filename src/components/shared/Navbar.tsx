@@ -56,6 +56,15 @@ const Navbar = () => {
               >
                 Discover
               </Link>
+              {/* Formation link for normal users only */}
+              {user?.role !== 'admin' && (
+                <Link 
+                  to="/dashboard/formation" 
+                  className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-500 border-b-2 border-transparent hover:border-primary-500 transition-colors"
+                >
+                  Formation
+                </Link>
+              )}
               {user?.role === 'admin' && (
                 <Link 
                   to="/dashboard/leaderboard" 
@@ -190,6 +199,16 @@ const Navbar = () => {
             >
               Discover
             </Link>
+            {/* Formation link for normal users only */}
+            {user?.role !== 'admin' && (
+              <Link
+                to="/dashboard/formation"
+                className="block pl-3 pr-4 py-2 text-base font-medium text-gray-500 hover:bg-gray-50 hover:text-gray-900"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Formation
+              </Link>
+            )}
             {user?.role === 'admin' && (
               <Link
                 to="/dashboard/leaderboard"

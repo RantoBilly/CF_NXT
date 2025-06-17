@@ -15,6 +15,7 @@ import StartupDiscovery from './pages/dashboard/StartupDiscovery';
 import StartupProfile from './pages/dashboard/StartupProfile';
 import Portfolio from './pages/dashboard/Portfolio';
 import Leaderboard from './pages/dashboard/Leaderboard';
+import Formation from './pages/dashboard/Formation';
 import NotFoundPage from './pages/NotFoundPage';
 
 // Protected Route Component
@@ -60,6 +61,7 @@ function App() {
           <Route path="discover" element={<StartupDiscovery />} />
           <Route path="startup/:id" element={<StartupProfile />} />
           <Route path="portfolio" element={<Portfolio />} />
+          <Route path="formation" element={<Formation />} />
           <Route 
             path="leaderboard" 
             element={
