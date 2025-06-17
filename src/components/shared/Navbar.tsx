@@ -33,7 +33,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center">
               <BarChart3 className="h-8 w-8 text-primary-500" />
-              <span className="ml-2 text-xl font-bold text-primary-800">IC Nexta+</span>
+              <span className="ml-2 text-xl font-bold text-primary-800">MindCrowd</span>
             </Link>
             
             {/* Desktop Navigation */}
